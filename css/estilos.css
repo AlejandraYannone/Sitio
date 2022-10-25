@@ -234,7 +234,7 @@ main .sobre-nosotros{
 } 
 
 .cards .card{
-    background: white);
+    background: white;
     display: flex;
     width: 46%;
     height: 400px;
@@ -296,6 +296,56 @@ main .sobre-nosotros{
 .servicio-ind h3 {
     margin: 10px 0;
 }
+/* Formulario de Contacto*/
+
+.contenedor-contact {
+    color: black;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, .4);
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+h2 {
+    color:rgb(8, 8, 8);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton{
+    background: #05010fa9;
+    color:rgb(86, 207, 86);
+    padding: 20px;
+}
+#boton{
+    cursor: pointer;
+}
 
 /* Footer */ 
 
@@ -356,7 +406,7 @@ footer{
         width: 44%;
     }
 
-    /* Clientes */
+    /* Productos */
     
     .cards{
         flex-direction: column;
@@ -454,6 +504,13 @@ footer{
             width: 90px;
             height: 90px;
         }
+      
+        /* Formulario de Contacto*/
+
+        .form{
+            width: 100%;
+        }
+
         /* Footer */
         
         .contenedor-footer{
